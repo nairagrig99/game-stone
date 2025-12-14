@@ -20,12 +20,6 @@ function generateRandomColors() {
     return colors;
 }
 
-function generateColorForRemovedElement() {
-
-}
-
-console.log('scope', scope);
-
 const clickHandler = selectFirstElement();
 
 drawStone();
@@ -43,7 +37,6 @@ function drawStone() {
             innerColors.classList.add('color-item');
 
             if (scope[i][j].color === undefined) {
-                console.log("hereee")
                 return
             }
 
