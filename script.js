@@ -1,4 +1,4 @@
-import {COLORS} from "./constants.js";
+const COLORS = ['blue', 'red', 'green', 'yellow'];
 
 let scope = generateRandomColors();
 
